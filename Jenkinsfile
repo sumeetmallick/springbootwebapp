@@ -5,7 +5,7 @@ node {
     }
     
     stage ('build') {
-        sh label: '', script: 'mvn install surefire-report:report test'
+        sh label: '', script: 'mvn clean install '
     }
     
     // stage('Sonar Analysis'){
