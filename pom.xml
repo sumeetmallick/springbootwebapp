@@ -93,4 +93,15 @@
 
 		</plugins>
 	</build>
+	epository>
+<id>nexus</id>
+<name>mytest_mavenrelease</name>
+<url>http://localhost:8081/repository/mytest_mavenrelease/</url>
+</repository>
+<snapshotRepository>
+<id>nexus</id>
+<name>mytest-snapshot</name>
+<url>http://localhost:8081/repository/mytest-snapshot/</url>
+</snapshotRepository>
+</distributionManagement>
 </project>
