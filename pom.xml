@@ -93,6 +93,7 @@
 
 		</plugins>
 	</build>
+	<distributionManagement>
 <repository>
 <id>nexus</id>
 <name>mytest_mavenrelease</name>
