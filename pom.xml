@@ -93,7 +93,7 @@
 
 		</plugins>
 	</build>
-	epository>
+	<repository>
 <id>nexus</id>
 <name>mytest_mavenrelease</name>
 <url>http://localhost:8081/repository/mytest_mavenrelease/</url>
