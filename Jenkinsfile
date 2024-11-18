@@ -9,8 +9,8 @@ node {
     }
     
      //stage('Sonar Analysis'){
-		  withSonarQubeEnv {
-         //     sh "/apps/sonar/sonar-scanner-3.3.0/bin/sonar-scanner"
+	//	  withSonarQubeEnv {
+          //    sh "/apps/sonar/sonar-scanner-3.3.0/bin/sonar-scanner"
         //   }
       //}
       
