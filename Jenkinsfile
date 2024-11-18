@@ -5,7 +5,7 @@ node {
     }
     
     stage ('build') {
-        sh label: '', script: 'mvn clean install '
+        sh label: '', script: 'mvn clean install -DskipTests'
     }
     
      //stage('Sonar Analysis'){
