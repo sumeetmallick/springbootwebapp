@@ -12,4 +12,4 @@ COPY target/spring-boot-web-0.0.2-SNAPSHOT.jar /app/spring-boot-web-0.0.2-SNAPSH
 EXPOSE 8080
 
 # Run the Spring Boot application
-CMD ["java", "-jar", "/app/application.jar"]
+CMD ["java", "-jar", "/app/spring-boot-web-0.0.2-SNAPSHOT.jar"]
